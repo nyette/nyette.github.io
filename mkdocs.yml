@@ -1,0 +1,28 @@
+repo_url: https://github.com/nyette/nyette.github.io
+site_name: Antoinette "Nette" Lee
+site_url: https://nyette.github.io
+nav:
+  - Home: index.md
+plugins:
+  - blog:
+      blog_dir: .
+theme:
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - toc.integrate
+  logo: assets/images/favicon.png
+  name: material
+  palette:
+    scheme: slate
+  
+copyright: Copyright &copy; 2025 Antoinette "Nette" Lee
+extra:
+  social:
+    - icon: fontawesome/brands/mastodon
+      link: https://lgbtqia.space/@nette
+      name: Mastodon
+    
